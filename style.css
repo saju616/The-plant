@@ -137,7 +137,16 @@ body{
     }
 
     .land{
-        width: 90%;
+    padding: 90px;
+    height: 45vh;
+    width: 80vw;
+    border: 2px solid black;
+    margin: 2rem auto;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    box-shadow: 1px 2px 60px grey;
+    overflow-x: hidden;
     }
     .plant{
         height: 14px;
