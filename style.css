@@ -1,0 +1,188 @@
+body{
+    margin: 12px;
+    background-color: skyblue;
+    overflow-y: hidden;
+}
+
+.container{
+    width: 600px;
+    height: auto;
+    transition: 4s ease-in-out;
+    transition-delay: 1s;
+    transition-duration: 2s;
+}
+
+.land{
+    padding: 90px;
+    height: 45vh;
+    width: 80vw;
+    border: 2px solid black;
+    margin: 2rem auto;
+    background-image: url(images/field-576618_1280.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    box-shadow: 1px 2px 60px grey;
+    overflow-x: hidden;
+}
+
+.plant{
+    background: url(images/1.png) no-repeat;
+    height: 14px;
+    width: 40px;
+    background-size: 84%;
+    position: absolute;
+    bottom: 55%;
+    left: 30%;
+}
+
+.small{
+    background: url(images/2.png) no-repeat;
+    height: 27px;
+    width: 40px;
+    background-size: 84%;
+    position: absolute;
+    bottom: 55%;
+    left: 31%;
+}
+
+.medium{
+    background: url(images/3.png) no-repeat;
+    height: 40px;
+    width: 50px;
+    background-size: 84%;
+    position: absolute;
+    bottom: 55%;
+    left: 29%;
+}
+
+.big{
+    background: url(images/4.png) no-repeat;
+    height: 85px;
+    width: 85px;
+    background-size: 86%;
+    position: absolute;
+    bottom: 55%;
+    left: 28%;
+
+}
+
+.man{
+    height: 250px;
+    width: 250px;
+    background: url(images/man.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    display: block;
+    bottom: 40%;
+    left: 26%;
+}
+
+.water{
+    height: 250px;
+    width: 250px;
+    background: url(images/man2.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    bottom: 40%;
+    left: 26%;
+    display: none;
+}
+
+.land button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    box-shadow: 1px 1px #013220;
+    outline: none;
+}
+
+.land button:hover{
+    background-color:#6ec071;
+    transition: 1s ease-in;
+}
+
+ #pl-2 {
+    display: none;
+    
+  }
+
+  #pl-3 {
+    display: none;
+  }
+
+  #pl-4 {
+    display: none;
+  }
+
+
+
+  @media screen and (max-width: 992px) {
+    .body{
+        width: 100%;
+    }
+
+    .container{
+        width: 600px;
+        height: auto;
+    }
+
+    .land{
+        width: 90%;
+    }
+    .plant{
+        height: 14px;
+        width: 40px;
+        background-size: 84%;
+    }
+    
+    .small{
+        height: 27px;
+        width: 40px;
+        background-size: 84%;
+    }
+    
+    .medium{
+        height: 40px;
+        width: 50px;
+        background-size: 84%;
+    }
+    
+    .big{
+        height: 85px;
+        width: 85px;
+        background-size: 86%;
+    }
+    
+    
+    
+    .man{
+        height: 250px;
+        width: 250px;
+        background-size: 100%;
+       
+    }
+    
+    .land button{
+        font-size: 30px;
+    }
+  }
+
+  .water{
+    height: 250px;
+    width: 250px;
+    background-size: 100%;
+    position: absolute;
+    bottom: 40%;
+    left: 26%;
+}
+ 
